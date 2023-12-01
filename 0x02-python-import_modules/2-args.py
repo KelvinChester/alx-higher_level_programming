@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-import sys
-
-list_argument = sys.argv
-no_argument = len(list_argument) - 1
+if __name__ == "__main__":
+    import sys
+    list_argument = sys.argv
+    no_argument = len(list_argument) - 1
 
 
 if no_argument > 1:
