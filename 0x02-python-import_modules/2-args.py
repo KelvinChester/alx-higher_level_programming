@@ -4,7 +4,6 @@ if __name__ == "__main__":
     list_argument = sys.argv
     no_argument = len(list_argument) - 1
 
-
 if no_argument > 1:
     print("{} arguments:".format(no_argument))
     for i in range(1, no_argument + 1):
