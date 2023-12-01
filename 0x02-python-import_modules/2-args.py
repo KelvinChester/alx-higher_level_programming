@@ -11,5 +11,5 @@ if no_argument > 1:
 elif no_argument == 0:
     print("{} arguments.".format(no_argument))
 else:
-    print("{} arguments:".format(no_argument))
+    print("{} argument:".format(no_argument))
     print("{}: {}".format(no_argument, list_argument[1]))
